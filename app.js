@@ -851,6 +851,8 @@ window.addEventListener('load', loadPageFromHash);
                     
                     // URL-ni dəyişdirək ki, məhsul detalları səhifəsini göstərsin
                     history.pushState(null, null, `?product=${productId}`);
+
+                    window.scrollTo(0, 0);
                 }
                 
                 function backToList() {
