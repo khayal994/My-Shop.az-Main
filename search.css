@@ -377,6 +377,9 @@
             }
         }
         @media (max-width: 320px) {
+            .heart-iconxl{
+                font-size: 1em;
+            }
             .masseg{
                 display: none; 
                 text-align: center; 
